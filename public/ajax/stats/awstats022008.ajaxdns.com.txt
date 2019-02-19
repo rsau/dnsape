@@ -1,0 +1,458 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 200802 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2544                
+POS_VISITOR 6999                
+POS_DAY 13462               
+POS_DOMAIN 3038                
+POS_LOGIN 3567                
+POS_ROBOT 3722                
+POS_WORMS 4017                
+POS_EMAILSENDER 4148                
+POS_EMAILRECEIVER 4291                
+POS_SESSION 14033               
+POS_SIDER 14226               
+POS_FILETYPES 4426                
+POS_OS 4623                
+POS_BROWSER 4782                
+POS_SCREENSIZE 5083                
+POS_UNKNOWNREFERER 5157                
+POS_UNKNOWNREFERERBROWSER 5386                
+POS_ORIGIN 5519                
+POS_SEREFERRALS 5660                
+POS_PAGEREFS 5817                
+POS_SEARCHWORDS 6155                
+POS_KEYWORDS 6397                
+POS_MISC 2207                
+POS_ERRORS 6528                
+POS_CLUSTER 3423                
+POS_SIDER_404 6612                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20080222003106 232 53648 36628465670
+FirstTime 20080201001747
+LastTime 20080222003106
+LastUpdate 20080222003104 232 0 232 0 0
+TotalVisits 157                 
+TotalUnique 113                 
+MonthHostsKnown 83                  
+MonthHostsUnknown 42                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 27 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 518 2564 6656326 59 63 33771
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 22
+ip 197 921 2343738
+net 127 608 1665959
+com 88 399 885110
+nl 25 98 284757
+at 21 113 141463
+es 15 59 180288
+fr 9 80 314267
+org 7 30 89759
+no 6 56 173211
+uk 5 39 92458
+tw 1 23 121068
+ru 4 48 167001
+mx 1 24 83298
+au 1 1 308
+dk 1 1 5536
+in 4 24 12452
+sg 1 1 0
+id 1 13 11418
+mz 1 1 2501
+it 1 1 684
+cy 1 23 80486
+se 1 1 564
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+baiduspider 2 11074 20080221001108 0
+googlebot 1 5838 20080209002200 0
+slurp 1 5510 20080219001104 0
+mj12bot 1 5510 20080222002045 0
+robot 1 5839 20080212002631 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+htc 14 882 0 0
+css 145 441081 0 0
+png 550 1153477 0 0
+php 387 759455 0 0
+html 117 645576 0 0
+js 99 904715 0 0
+jpg 511 482811 0 0
+gif 741 2268329 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winlong 444
+winxp 1748
+win2000 99
+linuxubuntu 108
+linux 24
+macosx 52
+win2003 27
+linuxcentos 28
+Unknown 9
+bsdopenbsd 25
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 17
+firefox2.0.0.11 427
+msie6.0 517
+msie5.01 1
+konqueror 24
+mozilla 27
+firefox1.5.0.12 28
+msie7.0 869
+opera 34
+firefox2.0.0.1 1
+firefox2.0.0.10 25
+firefox2.0.0.2 46
+firefox2.0.0.6 30
+firefox2.0.0.12 484
+Unknown 2
+firefox1.5.0 23
+safari 24
+firefox1.0.4 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/4.0_(compatible;) 20080219002803
+Mozilla/4.0_(compatible;_MSIE_6.0) 20080202002614
+shelob_v1.0 20080201002402
+VadixBot 20080213002347
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+shelob_v1.0 20080201002402
+VadixBot 20080213002347
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 115 115
+From1 0 0
+From2 23 23
+From3 4 4
+From4 376 2422
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 23 23
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://www.webhostingshow.com/2006/12/21/domain-name-tools-ajax-dns/ 2 2
+http://www.gsd.uni.cc/2007/09/02/12 1 1
+http://www.mail-archive.com/imail_forum@list.ipswitch.com/msg112058.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 7
+dns+tools 10
+dns+ajax 5
+ajaxdns 2
+ajaxdns.com 2
+ajax+dns 2
+dns+tool 1
+how+traversal+dns 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 8
+dns 19
+tools 10
+ajax 7
+ajaxdns 2
+ajaxdns.com 2
+traversal 1
+how 1
+tool 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 57 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 4
+/styles/csshover.htc 18 -
+/robots.txt 3 -
+/favicon.gif 4 -
+/csshover.htc 32 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 125
+gateway.phx.securehostserver.com 35 76 277485 20080220002412
+59.96.70.172 33 34 77663 20080221002516
+reverse.completel.net 23 23 49580 20080212002507
+213-84-69-67.adsl.xs4all.nl 22 45 67737 20080208003241
+194.51.20.124 21 73 47035 20080218002655
+213-140-22-72.fastres.net 15 125 416924 20080218001616
+81-234-157-17-o260.telia.com 14 142 106550 20080206001922
+167.86.219.87.dynamic.jazztel.es 13 35 97505 20080209001739
+81.255.76.89 13 79 202892 20080222003106 20080222002933 /
+62.168.57.21 12 65 159717 20080215003105
+utk-227-250.utk.ru 3 25 86515 20080219002045
+m217p003.adsl.highway.telekom.at 7 30 19382 20080213001821
+212.71.37.63 3 11 67460 20080204002905
+58.68.83.154 0 2 0 
+207.46.55.30 2 23 48599 20080204001347
+iawxsrt-dc2-fwxp.wxs.nl 2 31 137806 20080222001822 20080222001816 /ie7/ie7-load.htc
+212.71.37.62 0 2 6904 
+cpe-72-133-218-111.wi.res.rr.com 4 26 89113 20080222002739 20080222002650 /ajax_feed.php
+netmarc.org 6 29 89759 20080215001135
+ctb-cache5-vif0.saix.net 1 1 666 20080208002618
+alcfpxy2.att.com 1 1 1988 20080213002031
+202.165.137.77 1 18 1816 20080215001904
+75.125.145.50 1 1 5529 20080207001803
+146.210.0.5 10 49 52008 20080222001830 20080222001821 /ajax_feed.php
+82.99.249.93.parsonline.net 2 28 138108 20080209001739
+cpe002078d48e42-cm00195ee638e4.cpe.net.cable.rogers.com 1 1 2439 20080202002036
+81.94.52.117 2 24 85705 20080208001418
+218-171-227-103.dynamic.hinet.net 2 3 7256 20080209002350
+203.161.88.18.static.amnet.net.au 1 1 308 20080205001044
+ip72-203-170-109.pn.at.cox.net 4 26 87650 20080201003017
+112.subnet125-164-97.speedy.telkom.net.id 1 13 11418 20080219001128
+4nm54-1-88-184-84-46.fbx.proxad.net 6 50 19650 20080209002500
+ip70-191-88-201.sb.sd.cox.net 3 25 82517 20080206001213
+202.147.242.13 0 7 31577 
+124-10-133-59.static.tfn.net.tw 1 23 121068 20080215002802
+customer-cln-167-7.megared.net.mx 0 8 45847 
+89-19-31-204.cizgibilgisayar.com 2 25 7554 20080202001254
+84.124.226.216.dyn.user.ono.com 2 2 8848 20080220002804
+bzq-219-192-40.pop.bezeqint.net 3 25 85424 20080211001959
+125.212.17.81 4 27 90257 20080202002217
+rrba-ip-pcache-5-vif0.saix.net 2 2 2613 20080208002648
+wsip-24-248-2-200.ph.ph.cox.net 11 70 106240 20080222002220 20080222001439 /ajax_feed.php
+proxy3.tvcabo.co.mz 1 1 2501 20080205001937
+89.36.21.43 3 25 83575 20080201002519
+89.243.234.239 8 30 91862 20080217001241
+30.84-49-7.nextgentel.com 3 26 85155 20080207003027
+cps2.dmz-ap.st.com 6 13 25204 20080220002115
+customer-cln-167-3.megared.net.mx 0 1 312 
+150.70.84.25 5 5 10646 20080207002557
+customer-cln-167-2.megared.net.mx 0 7 12501 
+207-229-153-3.lem-bsr2.chi-lem.il.cable.rcn.com 1 23 80487 20080216001711
+60-250-159-228.hinet-ip.hinet.net 10 10 14170 20080213003057
+60-249-214-19.hinet-ip.hinet.net 5 5 15405 20080212003029
+rrcs-67-78-34-170.sw.biz.rr.com 1 1 5837 20080213002347
+150.70.84.152 1 1 1391 20080204001607
+bzq-219-238-247.pop.bezeqint.net 3 44 88180 20080220002307
+intranetapp.mango.com 2 24 80481 20080220001428
+217.11.178.57 9 35 15507 20080205001625
+194.121.11.21 1 23 80159 20080222002743 20080222002743 /
+sun.simplyguide.org 1 1 0 20080217002939
+212.71.37.61 0 1 5166 
+203.212.215.113 1 23 80187 20080220003150
+80-89-35-234.network.itconnect.no 3 8 7753 20080205001921
+202.115.130.23 1 24 75238 20080214001252
+customer-cln-167-9.megared.net.mx 0 2 5298 
+security-lab1.juniper.net 1 1 5199 20080201002402
+m520e36d0.tmodns.net 1 23 80486 20080214001054
+natpool.hitv.ru 1 23 80486 20080215002509
+abts-kk-static-101.3.166.122.airtelbroadband.in 1 1 1888 20080205001228
+123.252.131.134 1 1 667 20080214002115
+static-213-115-188-194.sme.bredbandsbolaget.se 1 1 564 20080211001607
+ctb-cache4-vif0.saix.net 1 1 5530 20080208002550
+s01060018f8f973cc.vw.shawcable.net 2 2 8223 20080220002308
+cache1.uk.logicacmg.com 4 27 93106 20080222001308 20080222001231 /ajax_feed.php
+3908ds1-vby.0.fullrate.dk 1 1 5536 20080221002037
+abts-kk-static-100.3.166.122.airtelbroadband.in 3 23 10564 20080216001437
+m312p011.adsl.highway.telekom.at 5 28 92773 20080219002331
+89.179.227.146 3 3 8732 20080212002415
+customer-cln-167-1.megared.net.mx 0 1 98 
+ip24-251-60-144.ph.ph.cox.net 1 1 1823 20080216002314
+nbl6-226.static.cytanet.com.cy 1 23 80486 20080215002558
+213.217.40.133 1 1 5537 20080219002803
+218.11.32.164 2 34 137807 20080220001813
+papa.liveperson.net 1 23 80184 20080221001203
+host81-129-13-253.range81-129.btcentralplus.com 9 9 10445 20080202001600
+218-171-225-136.dynamic.hinet.net 10 10 18436 20080209001459
+218-186-11-3.cache.maxonline.com.sg 1 1 0 20080205001833
+58.69.213.220.pldt.net 6 28 88338 20080211001142
+243-121-201-123.static.youtele.com 3 3 10418 20080218002624
+h81.246.17.98.ip.alltel.net 1 24 83297 20080214001553
+210-128.252-81.static-ip.oleane.fr 4 27 92166 20080213001609
+59.90.170.11 7 7 16217 20080215001631
+213.203.17.214 2 25 8155 20080220001823
+62.153.254.62 5 37 92287 20080208002532
+124.115.4.215 2 6 40470 20080202002609
+202.183.253.178 2 2 8698 20080208003402
+213.171.217.178 5 29 22941 20080221002515
+s010600195b4af30a.gv.shawcable.net 3 25 85297 20080212001835
+bcn1.entorno.es 2 24 82783 20080221002250
+server.officelink.no 2 25 85281 20080205001114
+58.246.56.58 1 1 1842 20080220001842
+88.255.131.18 8 31 97895 20080220001736
+ip68-98-234-112.ph.ph.cox.net 3 3 75 20080220002137
+145.7.182.14 2 28 138082 20080215001306
+254-20.neasonline.no 1 23 80177 20080207002955
+62.160.172.91 2 2 11009 20080212002214
+194.6.253.130 4 26 86171 20080220002351
+dsl-213-233-245-007.solcon.nl 1 22 79214 20080212001104
+mail.sxcomputers.co.uk 2 13 7280 20080206002512
+145.7.182.15 2 28 137780 20080219001316
+agglo-montbeliard-h97.cust.proxad.net 4 4 7977 20080204002338
+220.225.240.121 4 30 142450 20080219002909
+santexcel-dsl3.turboadsl.nordnet.fr 1 23 80152 20080205002948
+customer-cln-167-4.megared.net.mx 0 1 10099 
+customer-cln-167-8.megared.net.mx 0 1 317 
+82-70-69-134.dsl.in-addr.zen.co.uk 3 26 85178 20080206002711
+202.147.242.12 3 14 52248 20080222002355 20080222001905 /ajax_feed.php
+host78-182-static.36-88-b.business.telecomitalia.it 1 1 684 20080211001221
+customer-cln-51-109.megared.net.mx 1 1 5838 20080216002429
+217.11.178.11 10 34 13857 20080221001250
+20-204.252-81.static-ip.oleane.fr 4 30 141949 20080207002845
+71-223-193-221.phnx.qwest.net 3 26 86711 20080207001512
+m205p028.adsl.highway.telekom.at 7 30 19017 20080220002518
+m252p022.adsl.highway.telekom.at 2 25 10291 20080215002941
+customer-cln-167-11.megared.net.mx 0 2 2988 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20080201 14 58 199597 5
+20080202 21 71 159172 6
+20080204 39 106 302306 9
+20080205 26 146 364608 11
+20080206 38 244 388791 8
+20080207 23 139 503575 9
+20080208 37 114 266555 9
+20080209 42 135 294595 8
+20080210 8 9 46427 2
+20080211 18 88 193710 6
+20080212 22 65 212255 7
+20080213 37 131 239592 8
+20080214 10 98 258780 5
+20080215 27 235 684242 9
+20080216 5 50 171521 5
+20080217 10 32 94459 3
+20080218 25 115 315259 8
+20080219 31 164 519380 10
+20080220 46 262 657269 15
+20080221 13 82 189042 6
+20080222 26 220 595191 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 15
+30s-2mn 28
+2mn-5mn 11
+0s-30s 89
+15mn-30mn 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ajax_feed.php 384 759380 51 115
+/ 117 645576 103 27
+/ie7/ie7-load.htc 14 882 0 4
+/getip.php 3 75 3 3
+END_SIDER

@@ -1,0 +1,373 @@
+# The servers list file, format is;
+# TLD|Whois server|Avail string|Default info server|Backup info server|Search for info server by string
+# Make sense? of course not!
+com|whois.crsnic.net|No match for|whois.networksolutions.com|whois.internic.net|Whois Server: 
+net|whois.crsnic.net|No match for|whois.networksolutions.com|whois.internic.net|Whois Server: 
+org|whois.publicinterestregistry.net|NOT FOUND|whois.publicinterestregistry.net|whois.publicinterestregistry.net|
+co.uk|whois.nic.uk|No match|whois.nic.uk|whois.nic.uk|
+org.uk|whois.nic.uk|No match|whois.nic.uk|whois.nic.uk|
+ltd.uk|whois.nic.uk|No match|whois.nic.uk|whois.nic.uk|
+plc.uk|whois.nic.uk|No match|whois.nic.uk|whois.nic.uk|
+me.uk|whois.nic.uk|No match|whois.nic.uk|whois.nic.uk|
+edu|whois.internic.net|No match|whois.networksolutions.com|whois.internic.net|
+mil|whois.internic.net|No match|whois.networksolutions.com|whois.internic.net|
+br.com|whois.centralnic.com|No match|whois.centralnic.com|whois.centralnic.com|
+cn.com|whois.centralnic.com|No match|whois.centralnic.com|whois.centralnic.com|
+eu.com|whois.centralnic.com|No match|whois.centralnic.com|whois.centralnic.com|
+hu.com|whois.centralnic.com|No match|whois.centralnic.com|whois.centralnic.com|
+no.com|whois.centralnic.com|No match|whois.centralnic.com|whois.centralnic.com|
+qc.com|whois.centralnic.com|No match|whois.centralnic.com|whois.centralnic.com|
+sa.com|whois.centralnic.com|No match|whois.centralnic.com|whois.centralnic.com|
+se.com|whois.centralnic.com|No match|whois.centralnic.com|whois.centralnic.com|
+se.net|whois.centralnic.com|No match|whois.centralnic.com|whois.centralnic.com|
+us.com|whois.centralnic.com|No match|whois.centralnic.com|whois.centralnic.com|
+uy.com|whois.centralnic.com|No match|whois.centralnic.com|whois.centralnic.com|
+za.com|whois.centralnic.com|No match|whois.centralnic.com|whois.centralnic.com|
+ac|whois.nic.ac|No match for|whois.nic.ac|whois.nic.ac|
+co.ac|whois.nic.ac|No match for|whois.nic.ac|whois.nic.ac|
+gv.ac|whois.nic.ac|No match for|whois.nic.ac|whois.nic.ac|
+or.ac|whois.nic.ac|No match for|whois.nic.ac|whois.nic.ac|
+ac.ac|whois.nic.ac|No match for|whois.nic.ac|whois.nic.ac|
+af|whois.netnames.net|No Match|whois.netnames.net|whois.netnames.net|
+am|whois.nic.am|No information available|whois.nic.am|whois.nic.am|
+as|whois.nic.as|Domain Not Found|whois.nic.as|whois.nic.as|
+at|whois.nic.at|nothing found|whois.nic.at|whois.nic.at|
+ac.at|whois.nic.at|nothing found|whois.nic.at|whois.nic.at|
+co.at|whois.nic.at|nothing found|whois.nic.at|whois.nic.at|
+gv.at|whois.nic.at|nothing found|whois.nic.at|whois.nic.at|
+or.at|whois.nic.at|nothing found|whois.nic.at|whois.nic.at|
+asn.au|whois.apnic.net|No Data Found|whois.apnic.net|whois.apnic.net|
+com.au|whois.apnic.net|No Data Found|whois.apnic.net|whois.apnic.net|
+edu.au|whois.apnic.net|No Data Found|whois.apnic.net|whois.apnic.net|
+org.au|whois.apnic.net|No Data Found|whois.apnic.net|whois.apnic.net|
+net.au|whois.apnic.net|No Data Found|whois.apnic.net|whois.apnic.net|
+# Added 10/06/2003
+id.au|whois.apnic.net|No Data Found|whois.apnic.net|whois.apnic.net|
+be|whois.dns.be|Status:      FREE|whois.dns.be|whois.dns.be|
+ac.be|whois.dns.be|No such domain|whois.dns.be|whois.dns.be|
+br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+adm.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+adv.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+am.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+arq.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+art.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+bio.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+cng.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+cnt.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+com.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+ecn.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+eng.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+esp.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+etc.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+eti.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+fm.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+fot.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+fst.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+g12.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+gov.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+ind.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+inf.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+jor.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+lel.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+med.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+mil.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+net.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+nom.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+ntr.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+odo.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+org.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+ppg.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+pro.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+psc.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+psi.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+rec.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+slg.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+tmp.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+tur.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+tv.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+vet.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+zlg.br|whois.nic.br|No match for|whois.nic.br|whois.nic.br|
+ca|whois.cira.ca|AVAIL|whois.cira.ca|whois.cira.ca|
+ab.ca|whois.cira.ca|AVAIL|whois.cira.ca|whois.cira.ca|
+bc.ca|whois.cira.ca|AVAIL|whois.cira.ca|whois.cira.ca|
+mb.ca|whois.cira.ca|AVAIL|whois.cira.ca|whois.cira.ca|
+nb.ca|whois.cira.ca|AVAIL|whois.cira.ca|whois.cira.ca|
+nl.ca|whois.cira.ca|AVAIL|whois.cira.ca|whois.cira.ca|
+ns.ca|whois.cira.ca|AVAIL|whois.cira.ca|whois.cira.ca|
+nt.ca|whois.cira.ca|AVAIL|whois.cira.ca|whois.cira.ca|
+on.ca|whois.cira.ca|AVAIL|whois.cira.ca|whois.cira.ca|
+pe.ca|whois.cira.ca|AVAIL|whois.cira.ca|whois.cira.ca|
+qc.ca|whois.cira.ca|AVAIL|whois.cira.ca|whois.cira.ca|
+sk.ca|whois.cira.ca|AVAIL|whois.cira.ca|whois.cira.ca|
+yk.ca|whois.cira.ca|AVAIL|whois.cira.ca|whois.cira.ca|
+cc|whois.nic.cc|No match|whois.nic.cc|whois.nic.cc|
+ac.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+com.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+edu.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+gov.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+net.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+org.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+bj.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+sh.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+tj.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+cq.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+he.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+nm.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+ln.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+jl.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+hl.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+js.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+zj.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+ah.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+hb.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+hn.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+gd.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+gx.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+hi.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+sc.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+gz.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+yn.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+xz.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+sn.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+gs.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+qh.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+nx.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+xj.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+tw.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+hk.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+mo.cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+cx|whois.nic.cx|No match for|whois.nic.cx|whois.nic.cx|
+cz|whois.nic.cz|No data found|whois.nic.cz|whois.nic.cz|
+de|whois.nic.de|status:      free|whois.nic.de|whois.nic.de|
+dk|whois.dk-hostmaster.dk|No entries found|whois.dk-hostmaster.dk|whois.dk-hostmaster.dk|
+fo|whois.ripe.net|No entries found|whois.ripe.net|whois.ripe.net|
+com.ec|whois.lac.net|No match found|whois.lac.net|whois.lac.net|
+org.ec|whois.lac.net|No match found|whois.lac.net|whois.lac.net|
+net.ec|whois.lac.net|No match found|whois.lac.net|whois.lac.net|
+mil.ec|whois.lac.net|No match found|whois.lac.net|whois.lac.net|
+fin.ec|whois.lac.net|No match found|whois.lac.net|whois.lac.net|
+med.ec|whois.lac.net|No match found|whois.lac.net|whois.lac.net|
+gov.ec|whois.lac.net|No match found|whois.lac.net|whois.lac.net|
+fr|whois.nic.fr|No entries found|whois.nic.fr|whois.nic.fr|
+tm.fr|whois.nic.fr|No entries found|whois.nic.fr|whois.nic.fr|
+com.fr|whois.nic.fr|No entries found|whois.nic.fr|whois.nic.fr|
+asso.fr|whois.nic.fr|No entries found|whois.nic.fr|whois.nic.fr|
+presse.fr|whois.nic.fr|No entries found|whois.nic.fr|whois.nic.fr|
+gf|whois.nplus.gf|not found in our database|whois.nplus.gf|whois.nplus.gf|
+gs|whois.adamsnames.tc|is not registered|whois.adamsnames.tc|whois.adamsnames.tc|
+co.il|whois.isoc.org.il|No data was found|whois.isoc.org.il|whois.isoc.org.il|
+org.il|whois.isoc.org.il|No data was found|whois.isoc.org.il|whois.isoc.org.il|
+net.il|whois.isoc.org.il|No data was found|whois.isoc.org.il|whois.isoc.org.il|
+ac.il|whois.isoc.org.il|No data was found|whois.isoc.org.il|whois.isoc.org.il|
+k12.il|whois.isoc.org.il|No data was found|whois.isoc.org.il|whois.isoc.org.il|
+gov.il|whois.isoc.org.il|No data was found|whois.isoc.org.il|whois.isoc.org.il|
+muni.il|whois.isoc.org.il|No data was found|whois.isoc.org.il|whois.isoc.org.il|
+
+# Update from Vinayak Sharma (www.vinsar.net)
+in|whois.registry.in|NOT FOUND||whois.registry.in|whois.registry.in|
+co.in|whois.registry.in|NOT FOUND||whois.registry.in|whois.registry.in|
+net.in|whois.registry.in|NOT FOUND||whois.registry.in|whois.registry.in|
+org.in|whois.registry.in|NOT FOUND||whois.registry.in|whois.registry.in|
+gen.in|whois.registry.in|NOT FOUND||whois.registry.in|whois.registry.in|
+firm.in|whois.registry.in|NOT FOUND||whois.registry.in|whois.registry.in|
+ind.in|whois.registry.in|NOT FOUND||whois.registry.in|whois.registry.in|
+gov.in|whois.registry.in|NOT FOUND||whois.registry.in|whois.registry.in|
+ac.in|whois.registry.in|NOT FOUND||whois.registry.in|whois.registry.in|
+res.in|whois.registry.in|NOT FOUND||whois.registry.in|whois.registry.in|
+mil.in|whois.registry.in|NOT FOUND||whois.registry.in|whois.registry.in|
+
+is|whois.isnic.is|No entries found|whois.isnic.is|whois.isnic.is|
+it|whois.nic.it|No entries found|whois.nic.it|whois.nic.it|
+ac.jp|whois.nic.ad.jp|No match|whois.nic.ad.jp|whois.nic.ad.jp|
+co.jp|whois.nic.ad.jp|No match|whois.nic.ad.jp|whois.nic.ad.jp|
+go.jp|whois.nic.ad.jp|No match|whois.nic.ad.jp|whois.nic.ad.jp|
+or.jp|whois.nic.ad.jp|No match|whois.nic.ad.jp|whois.nic.ad.jp|
+ne.jp|whois.nic.ad.jp|No match|whois.nic.ad.jp|whois.nic.ad.jp|
+ac.kr|whois.nic.or.kr|is not registered|whois.nic.or.kr|whois.nic.or.kr|
+co.kr|whois.nic.or.kr|is not registered|whois.nic.or.kr|whois.nic.or.kr|
+go.kr|whois.nic.or.kr|is not registered|whois.nic.or.kr|whois.nic.or.kr|
+ne.kr|whois.nic.or.kr|is not registered|whois.nic.or.kr|whois.nic.or.kr|
+nm.kr|whois.nic.or.kr|is not registered|whois.nic.or.kr|whois.nic.or.kr|
+or.kr|whois.nic.or.kr|is not registered|whois.nic.or.kr|whois.nic.or.kr|
+re.kr|whois.nic.or.kr|is not registered|whois.nic.or.kr|whois.nic.or.kr|
+li|whois.nic.li|No match for|whois.nic.li|whois.nic.li|
+lt|whois.ripe.net|No entries found|whois.ripe.net|whois.ripe.net|
+lu|whois.dns.lu|No entries found|whois.dns.lu|whois.dns.lu|
+asso.mc|whois.ripe.net|No entries found|whois.ripe.net|whois.ripe.net|
+tm.mc|whois.ripe.net|No entries found|whois.ripe.net|whois.ripe.net|
+com.mm|whois.nic.mm|No domains matched|whois.nic.mm|whois.nic.mm|
+org.mm|whois.nic.mm|No domains matched|whois.nic.mm|whois.nic.mm|
+net.mm|whois.nic.mm|No domains matched|whois.nic.mm|whois.nic.mm|
+edu.mm|whois.nic.mm|No domains matched|whois.nic.mm|whois.nic.mm|
+gov.mm|whois.nic.mm|No domains matched|whois.nic.mm|whois.nic.mm|
+ms|whois.adamsnames.tc|is not registered|whois.adamsnames.tc|whois.adamsnames.tc|
+mx|whois.nic.mx|Referencias de Organization No Encontradas|whois.nic.mx|whois.nic.mx|
+com.mx|whois.nic.mx|Referencias de Organization No Encontradas|whois.nic.mx|whois.nic.mx|
+org.mx|whois.nic.mx|Referencias de Organization No Encontradas|whois.nic.mx|whois.nic.mx|
+net.mx|whois.nic.mx|Referencias de Organization No Encontradas|whois.nic.mx|whois.nic.mx|
+edu.mx|whois.nic.mx|Referencias de Organization No Encontradas|whois.nic.mx|whois.nic.mx|
+gov.mx|whois.nic.mx|Referencias de Organization No Encontradas|whois.nic.mx|whois.nic.mx|
+gob.mx|whois.nic.mx|Referencias de Organization No Encontradas|whois.nic.mx|whois.nic.mx|
+#nl|whois.domain-registry.nl|not a registered domain|whois.domain-registry.nl|whois.domain-registry.nl|
+nl|whois.domain-registry.nl|is free|whois.domain-registry.nl|whois.domain-registry.nl|
+no|whois.norid.no|no matches|whois.norid.no|whois.norid.no|
+nu|whois.nic.nu|NO MATCH for|whois.nic.nu|whois.nic.nu|
+pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+#pl|whois.dns.pl|No information about|whois.dns.pl|whois.dns.pl|
+com.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+net.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+org.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+aid.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+agro.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+atm.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+auto.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+biz.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+edu.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+gmina.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+gsm.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+info.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+mail.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+miasta.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+media.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+mil.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+nom.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+pc.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+priv.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+realestate.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+rel.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+shop.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+sklep.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+sos.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+targi.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+tm.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+tourism.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+travel.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+turystyka.pl|whois.dns.pl|does not exists|whois.dns.pl|whois.dns.pl|
+pt|whois.dns.pt|No entries found|whois.dns.pt|whois.dns.pt|
+com.ro|whois.rotld.ro|No entries found|whois.rotld.ro|whois.rotld.ro|
+org.ro|whois.rotld.ro|No entries found|whois.rotld.ro|whois.rotld.ro|
+store.ro|whois.rotld.ro|No entries found|whois.rotld.ro|whois.rotld.ro|
+tm.ro|whois.rotld.ro|No entries found|whois.rotld.ro|whois.rotld.ro|
+firm.ro|whois.rotld.ro|No entries found|whois.rotld.ro|whois.rotld.ro|
+www.ro|whois.rotld.ro|No entries found|whois.rotld.ro|whois.rotld.ro|
+arts.ro|whois.rotld.ro|No entries found|whois.rotld.ro|whois.rotld.ro|
+rec.ro|whois.rotld.ro|No entries found|whois.rotld.ro|whois.rotld.ro|
+info.ro|whois.rotld.ro|No entries found|whois.rotld.ro|whois.rotld.ro|
+nom.ro|whois.rotld.ro|No entries found|whois.rotld.ro|whois.rotld.ro|
+nt.ro|whois.rotld.ro|No entries found|whois.rotld.ro|whois.rotld.ro|
+ru|whois.ripn.net|No entries found|whois.ripn.net|whois.ripn.net|
+com.ru|whois.ripn.net|No entries found|whois.ripn.net|whois.ripn.net|
+net.ru|whois.ripn.net|No entries found|whois.ripn.net|whois.ripn.net|
+org.ru|whois.ripn.net|No entries found|whois.ripn.net|whois.ripn.net|
+se|whois.nic-se.se|No data found|whois.nic-se.se|whois.nic-se.se|
+si|whois.arnes.si|No entries found|whois.arnes.si|whois.arnes.si|
+com.sg|whois.nic.net.sg|NOMATCH|whois.nic.net.sg|whois.nic.net.sg|
+org.sg|whois.nic.net.sg|NOMATCH|whois.nic.net.sg|whois.nic.net.sg|
+net.sg|whois.nic.net.sg|NOMATCH|whois.nic.net.sg|whois.nic.net.sg|
+gov.sg|whois.nic.net.sg|NOMATCH|whois.nic.net.sg|whois.nic.net.sg|
+sk|whois.ripe.net|No entries found|whois.ripe.net|whois.ripe.net|
+st|whois.nic.st|No entries found|whois.nic.st|whois.nic.st|
+tc|whois.adamsnames.tc|is not registered|whois.adamsnames.tc|whois.adamsnames.tc|
+tf|whois.adamsnames.tc|is not registered|whois.adamsnames.tc|whois.adamsnames.tc|
+ac.th|whois.thnic.net|No entries|whois.thnic.net|whois.thnic.net|
+co.th|whois.thnic.net|No entries|whois.thnic.net|whois.thnic.net|
+go.th|whois.thnic.net|No entries|whois.thnic.net|whois.thnic.net|
+mi.th|whois.thnic.net|No entries|whois.thnic.net|whois.thnic.net|
+net.th|whois.thnic.net|No entries|whois.thnic.net|whois.thnic.net|
+or.th|whois.thnic.net|No entries|whois.thnic.net|whois.thnic.net|
+tj|whois.nic.tj|No match|whois.nic.tj|whois.nic.tj|
+tm|whois.nic.tm|No match|whois.nic.tm|whois.nic.tm|
+to|monarch.tonic.to|No match for|monarch.tonic.to|monarch.tonic.to|
+bbs.tr|whois.metu.edu.tr|Not found in database|whois.metu.edu.tr|whois.metu.edu.tr|
+com.tr|whois.metu.edu.tr|Not found in database|whois.metu.edu.tr|whois.metu.edu.tr|
+edu.tr|whois.metu.edu.tr|Not found in database|whois.metu.edu.tr|whois.metu.edu.tr|
+gov.tr|whois.metu.edu.tr|Not found in database|whois.metu.edu.tr|whois.metu.edu.tr|
+k12.tr|whois.metu.edu.tr|Not found in database|whois.metu.edu.tr|whois.metu.edu.tr|
+mil.tr|whois.metu.edu.tr|Not found in database|whois.metu.edu.tr|whois.metu.edu.tr|
+net.tr|whois.metu.edu.tr|Not found in database|whois.metu.edu.tr|whois.metu.edu.tr|
+org.tr|whois.metu.edu.tr|Not found in database|whois.metu.edu.tr|whois.metu.edu.tr|
+com.tw|whois.twnic.net|No Records Found|whois.twnic.net|whois.twnic.net|
+org.tw|whois.twnic.net|No Records Found|whois.twnic.net|whois.twnic.net|
+net.tw|whois.twnic.net|No Records Found|whois.twnic.net|whois.twnic.net|
+ac.uk|whois.ja.net|Sorry - no|whois.ja.net|whois.ja.net|
+uk.co|whois.uk.co|NO MATCH|whois.uk.co|whois.uk.co|
+uk.com|whois.centralnic.com|No match for|whois.centralnic.com|whois.centralnic.com|
+uk.net|whois.centralnic.com|No match for|whois.centralnic.com|whois.centralnic.com|
+gb.com|whois.centralnic.com|No match for|whois.centralnic.com|whois.centralnic.com|
+gb.net|whois.centralnic.com|No match for|whois.centralnic.com|whois.centralnic.com|
+vg|whois.adamsnames.tc|is not registered|whois.adamsnames.tc|whois.adamsnames.tc|
+ac.za|whois.co.za|No information available|whois.co.za|whois.co.za|
+alt.za|whois.co.za|No information available|whois.co.za|whois.co.za|
+co.za|whois.co.za|No information available|whois.co.za|whois.co.za|
+edu.za|whois.co.za|No information available|whois.co.za|whois.co.za|
+gov.za|whois.co.za|No information available|whois.co.za|whois.co.za|
+mil.za|whois.co.za|No information available|whois.co.za|whois.co.za|
+net.za|whois.co.za|No information available|whois.co.za|whois.co.za|
+ngo.za|whois.co.za|No information available|whois.co.za|whois.co.za|
+nom.za|whois.co.za|No information available|whois.co.za|whois.co.za|
+org.za|whois.co.za|No information available|whois.co.za|whois.co.za|
+school.za|whois.co.za|No information available|whois.co.za|whois.co.za|
+tm.za|whois.co.za|No information available|whois.co.za|whois.co.za|
+web.za|whois.co.za|No information available|whois.co.za|whois.co.za|
+sh|whois.nic.sh|No match|whois.nic.sh|whois.nic.sh|
+kz|whois.domain.kz|No entries found|whois.domain.kz|whois.domain.kz|
+ch|whois.nic.ch|not have an entry|whois.nic.ch|whois.nic.ch|
+info|whois.afilias.net|NOT FOUND|whois.afilias.net|whois.afilias.net|
+ua|whois.net.ua|% No entries found|whois.net.ua|whois.net.ua|
+biz|whois.nic.biz|Not found|whois.nic.biz|whois.nic.biz|
+ws|whois.nic.ws|No match for|whois.nic.ws|whois.nic.ws|
+gov|whois.nic.gov|No match for|whois.nic.gov|whois.nic.gov|
+# Updates from Maik (tweaking.nl)
+tv|whois.www.tv|Whois information is not available for domain|whois.www.tv|whois.www.tv|
+name|whois.nic.name|No match|whois.nic.name|whois.nic.name|
+pro|whois.internic.net|No match for|whois.internic.net|whois.internic.net|
+ie|whois.domainregistry.ie|% THERE WAS NO MATCH IN THE IE DOMAIN REGISTRY DATABASE FOR YOUR QUERY.|whois.domainregistry.ie|whois.domainregistry.ie|
+com.hk|whois.hkdnr.net.hk|No Match for|whois.hkdnr.net.hk|whois.hkdnr.net.hk|
+org.hk|whois.hkdnr.net.hk|No Match for|whois.hkdnr.net.hk|whois.hkdnr.net.hk|
+net.hk|whois.hkdnr.net.hk|No Match for|whois.hkdnr.net.hk|whois.hkdnr.net.hk|
+edu.hk|whois.hkdnr.net.hk|No Match for|whois.hkdnr.net.hk|whois.hkdnr.net.hk|
+us|whois.nic.us|Not found:|whois.nic.us|whois.nic.us|
+tk|whois.dot.tk|not known|whois.dot.tk|whois.dot.tk|
+cd|whois.cd|No match|whois.cd|whois.cd|
+aero|whois.information.aero|not registered|whois.information.aero|whois.information.aero|
+#gr|whois.ripe.net|No entries found|whois.ripe.net|whois.ripe.net|
+by|whois.ripe.net|No entries found|whois.ripe.net|whois.ripe.net|
+ad|whois.ripe.net|No entries found|whois.ripe.net|whois.ripe.net|
+lv|whois.ripe.net|No entries found|whois.ripe.net|whois.ripe.net|
+eu.lv|whois.biz|Not found|whois.biz|whois.biz|
+bz|mhpwhois1.verisign-grs.net|No match|mhpwhois1.verisign-grs.net|
+es|whois.ripe.net|no entries found|whois.ripe.net|whois.ripe.net|
+jp|whois.nic.ad.jp|No match!!|whois.nic.ad.jp|whois.nic.ad.jp|
+cl|whois.nic.cl|no existe|whois.nic.cl|whois.nic.cl|
+ag|whois.nic.ag|does not exist|whois.nic.ag|whois.nic.ag|
+# Added 28/01/2003
+net.nz|whois.domainz.net.nz|Available|whois.domainz.net.nz|whois.domainz.net.nz|
+co.nz|whois.domainz.net.nz|Available|whois.domainz.net.nz|whois.domainz.net.nz|
+maori.nz|whois.domainz.net.nz|Available|whois.domainz.net.nz|whois.domainz.net.nz|
+org.nz|whois.domainz.net.nz|Available|whois.domainz.net.nz|whois.domainz.net.nz|
+govt.nz|whois.domainz.net.nz|Available|whois.domainz.net.nz|whois.domainz.net.nz|
+iwi.nz|whois.domainz.net.nz|Available|whois.domainz.net.nz|whois.domainz.net.nz|
+cri.nz|whois.domainz.net.nz|Available|whois.domainz.net.nz|whois.domainz.net.nz|
+school.nz|whois.domainz.net.nz|Available|whois.domainz.net.nz|whois.domainz.net.nz|
+ac.nz|whois.domainz.net.nz|Available|whois.domainz.net.nz|whois.domainz.net.nz|
+mil.nz|whois.domainz.net.nz|Available|whois.domainz.net.nz|whois.domainz.net.nz|
+gen.nz|whois.domainz.net.nz|Available|whois.domainz.net.nz|whois.domainz.net.nz|
+# Added 09/05/2003
+ro|whois.rotld.ro|No entries found|whois.rotld.ro|whois.rotld.ro|
+wales.com|whois.wales.com|No match for|whois.wales.com|whois.wales.com|
+cn|whois.cnnic.net.cn|no matching record|whois.cnnic.net.cn|whois.cnnic.net.cn|
+fi|whois.ripe.net|No entries found|whois.ripe.net|whois.ripe.net|
+hr|whois.ripe.net|No entries found|whois.ripe.net|whois.ripe.net|
+hu|whois.ripe.net|No entries found|whois.ripe.net|whois.ripe.net|
+ph|whois.domains.ph|No entries found|whois.domains.ph|whois.domains.ph|
+bg|whois.digsys.bg|does not exist|whois.digsys.bg|whois.digsys.bg|
+# Added Feb 21 2005
+web.id|whois.idnic.net.id|No Objects Found|whois.idnic.net.id|whois.idnic.net.id|
+sch.id|whois.idnic.net.id|No Objects Found|whois.idnic.net.id|whois.idnic.net.id|
+or.id|whois.idnic.net.id|No Objects Found|whois.idnic.net.id|whois.idnic.net.id|
+co.id|whois.idnic.net.id|No Objects Found|whois.idnic.net.id|whois.idnic.net.id|
+ac.id|whois.idnic.net.id|No Objects Found|whois.idnic.net.id|whois.idnic.net.id|
+net.id|whois.idnic.net.id|No Objects Found|whois.idnic.net.id|whois.idnic.net.id|
+war.net.id|whois.idnic.net.id|No Objects Found|whois.idnic.net.id|whois.idnic.net.id|
+mil.id|whois.idnic.net.id|No Objects Found|whois.idnic.net.id|whois.idnic.net.id|
+go.id|whois.idnic.net.id|No Objects Found|whois.idnic.net.id|whois.idnic.net.id|

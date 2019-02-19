@@ -1,0 +1,126 @@
+# Webalizer V2.01-10 Incremental Data - 10/09/2007 10:00:54
+2007 10 9 10 0 54
+15 0 1 0 1 2 0 5 5 0
+1 3 6 1 9
+3 0 0 1 1 1
+6 0 0 1 2 2
+3 0 0 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+3 0 0 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+6 0 0 2
+0 0 0 0
+3 0 0 1
+3 0 0 1
+0 0 0 0
+0 0 0 0
+3 0 0 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+5
+10
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+# End Of Table - urls
+# -sites- (monthly)
+gateway.phx.securehostserver.com
+0 15 0 0 5 1191924054
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+gateway.phx.securehostserver.com
+0 3 0 0 1 1191924054
+-
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+1 15
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.2) G
+0 12
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.6) G
+0 3
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

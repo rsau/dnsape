@@ -1,0 +1,467 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 200801 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2534                
+POS_VISITOR 6835                
+POS_DAY 13466               
+POS_DOMAIN 3028                
+POS_LOGIN 3623                
+POS_ROBOT 3778                
+POS_WORMS 4005                
+POS_EMAILSENDER 4136                
+POS_EMAILRECEIVER 4279                
+POS_SESSION 14249               
+POS_SIDER 14442               
+POS_FILETYPES 4414                
+POS_OS 4618                
+POS_BROWSER 4723                
+POS_SCREENSIZE 4978                
+POS_UNKNOWNREFERER 5052                
+POS_UNKNOWNREFERERBROWSER 5197                
+POS_ORIGIN 5296                
+POS_SEREFERRALS 5437                
+POS_PAGEREFS 5618                
+POS_SEARCHWORDS 5988                
+POS_KEYWORDS 6200                
+POS_MISC 2197                
+POS_ERRORS 6304                
+POS_CLUSTER 3479                
+POS_SIDER_404 6399                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20080201001407 1 0 40848265820
+FirstTime 20080101001048
+LastTime 20080131002801
+LastUpdate 20080201003032 1 0 0 0 0
+TotalVisits 184                 
+TotalUnique 129                 
+MonthHostsKnown 86                  
+MonthHostsUnknown 44                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 25 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 695 3604 7859549 81 85 39074
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 25
+ip 208 1000 2031279
+net 176 790 2468262
+com 86 345 643423
+no 47 110 249221
+cn 30 71 146368
+il 23 93 346149
+tw 20 109 387564
+es 17 43 45770
+de 13 59 35778
+at 13 82 120047
+pt 0 440 311794
+uk 9 61 23527
+gr 1 22 69773
+au 8 30 92217
+fr 1 24 5223
+in 11 34 11073
+id 6 51 90949
+th 3 29 139714
+it 1 1 1539
+org 2 25 82659
+pl 4 26 82986
+nl 7 104 307968
+be 1 8 47825
+66 2 24 79871
+pe 6 23 38570
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+slurp 5 25973 20080119002341 0
+grub 1 5197 20080119002444 0
+htmlparser 1 5223 20080130002345 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+php 527 1052022 0 0
+css 174 479905 0 0
+htc 27 1862 0 0
+png 495 1011091 0 0
+html 141 725881 0 0
+jpg 1072 1113497 0 0
+js 112 1112599 0 0
+gif 1056 2362692 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 6
+macosx 82
+winxp 3073
+winlong 287
+win2003 29
+win2000 131
+Unknown 2
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 15
+msie6.0 1709
+firefox2.0.0.11 846
+msie5.01 1
+mozilla 25
+firefox2.0.0.3 25
+msie7.0 887
+firefox3.0 48
+opera 8
+firefox1.0.6 26
+firefox2.0.0.2 17
+Unknown 1
+k\-meleon 1
+safari 2
+firefox2.0.0.7 3
+firefox1.0.4 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+- 20080129002708
+Mozilla/4.0_(compatible;) 20080119003020
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+- 20080129002708
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 162 173
+From1 0 0
+From2 17 17
+From3 8 8
+From4 508 3406
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 15 15
+delicious 1 1
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://220.135.241.51/blog/article.asp 3 3
+http://blog.joaoko.net/archives/233 2 2
+http://www.wowbox.com.tw/blog/article.asp 1 1
+http://www.real-blog.com/linux-bsd-notes/300 1 1
+http://guide.opendns.com/controller.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 5
+dns+tools 9
+dns+ajax 4
+online+dns+tool 1
+ping+ajax 1
+ajax 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 6
+dns 14
+tools 9
+ajax 6
+online 1
+ping 1
+tool 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 1 2681
+404 77 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 6
+/styles/csshover.htc 28 -
+/ajax/ajax_optInventory.asp 3 -
+/sitemap.xml 1 -
+/robots.txt 6 -
+/favicon.gif 3 -
+/csshover.htc 36 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 130
+80-89-35-234.network.itconnect.no 47 110 249221 20080118001709
+59.96.70.172 36 36 95886 20080129002020
+213-140-22-72.fastres.net 28 138 445061 20080125003006
+gateway.phx.securehostserver.com 27 32 79105 20080127001739
+219.84.168.29 26 146 479854 20080129003011
+wsip-24-248-2-200.ph.ph.cox.net 26 58 43313 20080131002801
+106.240.93.218.broad.sq.js.dynamic.163data.com.cn 25 57 134151 20080101002755
+213.42.21.150 20 20 26736 20080113002021
+cliente-41535.iberbanda.es 17 43 45770 20080107001735
+pd1px4.st.vc.shawcable.net 16 39 115313 20080101001829
+gw.ab.starcomms.net 2 24 82423 20080108002002
+85.112.95.11 4 7 62703 20080114002553
+iawxsrt-dc2-fwxp.wxs.nl 2 54 137493 20080108001625
+150.70.84.27 1 1 2611 20080115001401
+vlan100.ttbank.gr 1 22 69773 20080131002633
+tp-s2-c7r3.router.hinet.net 1 20 104055 20080109001038
+81.255.76.89 2 2 8032 20080129002918
+m505p023.adsl.highway.telekom.at 5 5 12513 20080117002857
+124-168-54-136.dyn.iinet.net.au 6 28 87077 20080111001218
+89-19-31-204.cizgibilgisayar.com 10 125 38242 20080131001303
+mail.terasic.com.tw 3 25 82526 20080108002118
+150.70.84.25 2 2 5426 20080122002857
+150.70.84.28 1 1 2611 20080108001334
+igld-83-130-12-67.inter.net.il 5 31 142476 20080107002500
+91.143.121.164 4 4 9096 20080118002729
+adsl-ge.dfinet.net 2 25 85392 20080130001524
+150.70.84.152 5 5 12159 20080130001148
+83.64.124.110 1 1 2496 20080122002226
+212.96.26.178 1 8 64406 20080109002114
+126.210-246-81.adsl-dyn.isp.belgacom.be 1 8 47825 20080103001950
+223.subnet125-161-134.speedy.telkom.net.id 4 26 82522 20080130002653
+200.241.93.218.broad.sq.js.dynamic.163data.com.cn 5 14 12217 20080125002622
+h209-210-243-230.seed.net.tw 2 17 4930 20080131002054
+llevant.xtec.net 1 11 69438 20080125001551
+abts-kk-static-100.3.166.122.airtelbroadband.in 2 2 2716 20080128001946
+netc-gw.telecel.pt 0 440 311794 
+ip68-3-178-37.ph.ph.cox.net 3 26 87415 20080129002810
+211.75.201.242 13 434 160069 20080121002547
+59.98.204.4 1 1 3481 20080109002459
+217.171.129.73 1 1 5224 20080119003020
+220-132-155-223.hinet-ip.hinet.net 3 30 145778 20080113001303
+210.82.81.4 5 5 5932 20080114002304
+195.166.55.170 2 24 80561 20080123001830
+213.171.217.178 10 17 27443 20080129002243
+hrz-153-84.access.net.il 4 26 82780 20080126002355
+61-220-146-116.hinet-ip.hinet.net 9 31 107321 20080108002458
+58.246.56.58 2 46 159742 20080104001640
+78.budlex.com.pl 4 26 82986 20080125001729
+su-nat.int.smq.datapipe.net 3 3 11437 20080131002735
+150.70.84.21 3 3 6129 20080120001756
+12.110.15.245 6 28 87348 20080112001717
+59.98.204.2 2 2 4020 20080108001906
+145.7.182.14 2 28 137467 20080131001309
+m271p031.adsl.highway.telekom.at 1 24 5223 20080101001348
+174.209.19.217.sta.idknet.com 3 3 9615 20080102002355
+62.160.172.91 5 5 21074 20080122002517
+customer-reverse-entry.69.59.132.66 2 24 79871 20080129002709
+dsl-213-233-245-007.solcon.nl 2 24 82401 20080118001225
+66.180.82.86 1 1 2349 20080115002945
+mail.sxcomputers.co.uk 3 3 7476 20080125001405
+87.213.152.74 8 30 91373 20080129002138
+host68-63-static.77-62-b.business.telecomitalia.it 1 1 1539 20080129001122
+81.12.15.253 2 2 4732 20080114002158
+host217-41-25-15.in-addr.btopenworld.com 2 2 7702 20080103001324
+c-24-23-63-233.hsd1.mn.comcast.net 6 47 118076 20080131002248
+220.232.77.157 1 1 5224 20080101001048
+p5480f1a1.dip.t-dialin.net 1 1 2548 20080124001430
+mail.evolution.co.il 14 36 120893 20080129002112
+58.186.250.2 1 1 2299 20080113001613
+91.184.77.84 4 4 7616 20080101001650
+int-nat.fasthosts.net.uk 6 58 16051 20080116001458
+80.227.132.195 2 2 7041 20080108001943
+145.7.182.13 4 57 280133 20080117002306
+mail.landkreis-oder-spree.de 9 55 29602 20080125001843
+203-144-143-9.static.asianet.co.th 3 29 139714 20080113001747
+d58-110-215-34.mas9.nsw.optusnet.com.au 2 2 5140 20080102001204
+71-217-37-107.tukw.qwest.net 3 3 9638 20080103001442
+211-72-233-8.hinet-ip.hinet.net 3 10 20605 20080115003012
+202.57.111.229 1 1 5224 20080120001525
+db3125235.aspadmin.net 1 1 5197 20080131002417
+zmx.emicotech.com 8 30 99023 20080120001659
+60-248-111-148.hinet-ip.hinet.net 1 24 82684 20080109003007
+static-208-80-193-40.as13448.com 1 1 5223 20080109002056
+84.124.226.216.dyn.user.ono.com 13 13 25555 20080129002753
+ip72-211-216-116.oc.oc.cox.net 3 26 9658 20080127002235
+m281p021.adsl.highway.telekom.at 5 28 94287 20080110001242
+87.109.6.69 9 31 17544 20080113002247
+60-249-214-19.hinet-ip.hinet.net 15 16 41123 20080110002953
+211-72-233-10.hinet-ip.hinet.net 2 42 106179 20080115002945
+bzq-219-238-247.pop.bezeqint.net 3 26 88056 20080117001558
+62.90.190.44 2 2 8681 20080116001712
+host86-157-233-245.range86-157.btcentralplus.com 2 24 120552 20080102003015
+sun.simplyguide.org 1 1 0 20080112001221
+client-201.240.251.163.speedy.net.pe 1 18 20666 20080103001419
+abordeaux-253-1-62-212.w82-125.abo.wanadoo.fr 1 24 5223 20080116001442
+61.11.120.13.kol.bb.static.vsnl.net 5 5 6979 20080130001406
+219-84-178-113-adsl-tpe.dynamic.so-net.net.tw 2 28 137495 20080115002306
+mail.ennion.nl 3 26 88074 20080111001714
+frgw.kivbf.de 4 4 6176 20080129001220
+10.207-core01-gi.3.1-cc.sccoast.net 3 12 41206 20080101002605
+150.70.84.26 1 1 3480 20080109002459
+m534p020.adsl.highway.telekom.at 2 25 8024 20080114001804
+dns.incometec.com.tw 13 39 162613 20080101001919
+hi214.asiawhere.com 5 31 149920 20080109002258
+60.53.103.154 3 26 87609 20080107001320
+160.subnet125-161-241.speedy.telkom.net.id 2 25 8427 20080115002314
+220-128-190-162.hinet-ip.hinet.net 1 1 5199 20080123001758
+150.70.84.23 2 2 6636 20080120001813
+internet_q.jcl.com 5 26 7390 20080114001613
+61-229-188-69.dynamic.hinet.net 2 2 8932 20080102002139
+128.241.20.81 1 1 2312 20080109001037
+59.90.170.11 3 3 6999 20080122002738
+66.180.82.81 2 2 5600 20080115003007
+ip68-226-116-215.ph.ph.cox.net 3 25 87110 20080113001122
+nat.ch5finland.com 4 26 84747 20080103001201
+illhyd-static-203.197.242.178.vsnl.net.in 9 32 8357 20080124001529
+c-71-56-95-144.hsd1.ga.comcast.net 3 17 7648 20080131002217
+210-210-31-230.lan.sify.net 10 88 421485 20080121002430
+static-208-80-193-48.as13448.com 1 1 5223 20080109002136
+220-135-127-84.hinet-ip.hinet.net 2 24 82632 20080108001648
+alcfpxy1.att.com 2 2 3086 20080128002949
+128.241.20.213 1 1 5224 20080109001434
+no-reverse-defined.barnsley.org 1 24 82659 20080123001202
+nor75-15-82-67-191-83.fbx.proxad.net 8 8 14693 20080123001454
+gateway1.colt-telecom.com 3 29 8040 20080122002231
+97.90.157.193 2 2 7846 20080117001313
+217.11.178.11 3 3 2851 20080123001355
+ip68-98-232-193.ph.ph.cox.net 1 1 1885 20080108002003
+220-130-131-234.hinet-ip.hinet.net 6 6 9783 20080116001127
+client-201.240.240.119.speedy.net.pe 5 5 17904 20080102001658
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20080101 66 179 484220 8
+20080102 30 93 351346 8
+20080103 11 57 170578 5
+20080104 18 110 278293 3
+20080105 4 9 5559 2
+20080107 20 96 392729 5
+20080108 30 166 596300 13
+20080109 18 145 612910 12
+20080110 14 63 251156 5
+20080111 11 56 185573 4
+20080112 12 57 104568 4
+20080113 39 136 419181 6
+20080114 32 112 153444 7
+20080115 46 169 432547 10
+20080116 23 374 289786 7
+20080117 16 88 258856 7
+20080118 18 251 327105 6
+20080119 5 5 17676 2
+20080120 13 35 113191 5
+20080121 30 499 412262 4
+20080122 28 76 148995 7
+20080123 15 61 190305 6
+20080124 19 68 35397 4
+20080125 33 144 316597 7
+20080126 7 29 91480 2
+20080127 14 37 43505 4
+20080128 18 47 119844 6
+20080129 52 165 510701 12
+20080130 12 57 177891 4
+20080131 41 220 367554 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 26
+15mn-30mn 5
+2mn-5mn 21
+0s-30s 95
+30s-2mn 37
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ajax_feed.php 526 1050137 62 145
+/ 141 725881 121 31
+/ie7/ie7-load.htc 27 1862 0 7
+/widget_feed.php 1 1885 1 1
+END_SIDER

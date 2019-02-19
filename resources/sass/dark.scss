@@ -1,0 +1,89 @@
+html, body {
+    background-color: #202020;
+    color: #fff;
+}
+
+.content {
+    color: #fff;
+}
+
+a:link {
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+}
+
+.btn-link {
+    color: #fff;
+    background-color:#303030;
+}
+
+.btn-link:hover,.btn-link:focus,.btn-link:active {
+    background-color: #484848;
+    border-color: #484848;
+    color: #fff;
+}
+
+.active {
+    background-color: #484848;
+    border-color: #484848;
+    color: #fff;
+}
+
+.title {
+    color: #fff;
+}
+
+pre {
+    color: #fff;
+}
+
+.modal-container {
+    background-color: #484848;
+    color: #fff;
+}
+
+.modal-default-button {
+    background-color: #606060;
+}
+
+.modal-default-button:hover,.modal-default-button:focus,.modal-default-button:active {
+    background-color: grey;
+}
+
+hr {
+    border-top: 1px solid #484848;
+}
+
+.dropdown-toggle {
+    color: #fff;
+    background-color: #303030;
+}
+
+.dropdown-toggle:hover,.modal-default-button:focus,.modal-default-button:active {
+    color: #fff;
+    background-color: #484848;
+}
+
+.dropdown-menu {
+    background-color: #202020;
+    border: 1px solid darkgrey;
+}
+
+.btn-toggle {
+  background: #404040;
+}
+
+.btn-toggle:before {
+  -webkit-filter:invert(1);
+}
+.btn-toggle:after {
+  -webkit-filter:invert(1);
+}
+
+// NProgress
+#nprogress .bar {
+  background: #fff;
+}

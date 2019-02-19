@@ -1,0 +1,61 @@
+{
+    "name": "jsmitty12/phpwhois",
+    "description": "phpWhois - library for querying whois services and parsing results.",
+    "keywords": [
+        "PHP",
+        "Whois",
+        "phpWhois"
+    ],
+    "homepage": "http://phpwhois.pw",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Mark Jeftovic",
+            "email": "markjr@easydns.com"
+        },
+        {
+            "name": "David Saez Padros",
+            "email": "david@ols.es"
+        },
+        {
+            "name": "Ross Golder",
+            "email": "ross@golder.org"
+        },
+        {
+            "name": "Dmitry Lukashin",
+            "email": "dmitry@lukashin.ru"
+        },
+        {
+            "name": "Joshua Smith",
+            "email": "jsmith@jssm.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0,<7.4 || 7.3.0-dev || 7.4.0-dev",
+        "mso/idna-convert": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0 || ^7.0 || ^8.0"
+    },
+    "suggest": {
+        "lib-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpWhois\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "src/",
+            "tests/"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "replace": {
+        "phpwhois/phpwhois": "4.2.*"
+    }
+}

@@ -1,0 +1,78 @@
+// Country domains
+
+at		nic.at
+au		telstra.com.au
+be		nic.be
+br		registro.br
+ca              cira.ca
+ch		creart.ch blaueskreuz.ch
+cn           	cnnic.net.cn
+de		4ever.de
+es		ols.es
+fm		dot.fm
+hu		nic.hu
+is		isnic.is
+li		nic.li
+lu		dns.lu
+lt		domreg.lt
+mx           	nic.mx
+nl		domain-registry.nl
+nu		nunames.nu
+se		nic-se.se
+uk		olsns.co.uk
+us		neustar.us
+ws		samoanic.ws
+
+// .com/.org/.net/.tv
+
+ascio		ascio.com
+chdom		naturebox.com
+bulkr		bulkregister.com
+buydomains	buydomains.com
+core            corenic.com
+cronon		antiquea.com
+directnic	directnic.com
+domainbank	domainbank.com
+dotregistrar    dotregistrar.com
+dotster         dotster.com
+enom            enom.com
+godaddy		godaddy.com
+joker		joker.com
+innerwise	sexido.com
+interdomain     interdominio.com
+inwwcom         inww.com
+moniker		moniker.com
+netsol          networksolutions.com
+nicline		nicline.com
+opensrsnet      tucows.com
+registercom     register.com
+schlund		schlund.com
+srsplus		olsns.com
+stargate	stargate.com
+tvcorp		sex.tv
+
+// Other
+
+aero		nic.aero
+biz             neulevel.biz
+coop		sex.coop , nic.coop
+info            afilias.info
+museum		nic.museum
+org		ascio.org buydomains.org ...
+
+// IP whois
+
+afrinic		66.18.70.6
+apnic		218.165.121.114
+arin            207.217.120.54
+arin+rwhois     70.84.47.210
+bripw		200.165.206.74
+krnic		210.178.148.129
+lacnic		200.44.33.31
+ripe            62.97.102.115
+
+// ASN
+
+arin		AS220
+
+
