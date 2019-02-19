@@ -10,16 +10,18 @@ DNSApe is a collection of network tools designed to be fast and efficient.
 Docker Swarm:
 
 ```sh
-git clone https://github.com/srvaudit/DNSApe.git
-cd DNSApe/docker
+git clone https://github.com/srvaudit/dnsape-docker.git
+cd dnsape-docker
 docker stack deploy -c docker-compose.yml dnsape
 ```
 
-You can manually install DNSApe in your own application server.  An [Nginx configuration](https://github.com/srvaudit/DNSApe/blob/master/docker/web/dnsape.com.conf) is available. 
+DNSApe should also be deployable via Docker Compose, though this has not been tested.
+
+You can manually install DNSApe on your own PHP application server.  An [Nginx configuration](https://github.com/srvaudit/dnsape-web/blob/master/dnsape.com.conf) is available. 
 
 ## Usage example
 
-Usage is self evident, but, anyway...
+Usage is self evident, but, here it is anyway...
 
 1. Need network debugging information
 2. Visit DNSApe
@@ -28,7 +30,7 @@ Usage is self evident, but, anyway...
 
 ## Development setup
 
-If you'd like to contribute, you can rebuild application assets when changing them.
+If you'd like to modify DNSApe, you can rebuild application assets when changing them. See the [Laravel docs](https://laravel.com/docs/5.7) for more information.
 
 For developement and testing:
 
@@ -36,7 +38,7 @@ For developement and testing:
 php artisan key:generate
 composer install
 npm install --unsafe-perm=true
-npm run production
+npm run dev
 ```
 
 For production:
@@ -45,6 +47,7 @@ For production:
 composer install --optimize-autoloader --no-dev
 artisan config:cache
 artisan route:cache
+npm run production
 ```
 
 ## Release History
