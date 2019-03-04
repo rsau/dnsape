@@ -18,14 +18,10 @@
                               <div class="handle"></div>
                           </button>
                         </div>
-                        <div class="container mt-3 mb-1 d-flex justify-content-center">
-                          <button type="button" class="btn btn-link" v-on:click="whatIsMyIP">What's my IP?
-                          </button>
-                        </div>
                     </div>
                 </div>
                 <div class="order-3 order-sm-2 flex-fill">
-                    <input id="domain" autofocus type="url" v-model="host" class="form-control" v-on:keyup.enter.prevent="formSubmit" v-on:focus="urlFocus = true" v-on:blur="urlFocus = false" autosuggest="off" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" @focus="$event.target.select()"></input>
+                    <input id="domain" autofocus type="url" v-model="host" class="form-control" v-on:keyup.enter.prevent="formSubmit" v-on:focus="urlFocus = true" v-on:blur="urlFocus = false" autosuggest="off" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" @focus="$event.target.select()" placeholder="Domain name or IP address"></input>
                 </div>
             </div>
         </div>
@@ -131,7 +127,8 @@
         </transition>
         <hr class="homehr" v-if="!output"/>
         <div id="footer" class="container-fluid pb-2">
-            <div class="float-left"><a href="" @click.prevent="showUpdates()">Updates</a>&nbsp; | &nbsp;<a href="" @click.prevent="showPrivacy()">Privacy</a>&nbsp; | &nbsp;<a href="https://github.com/srvaudit/dnsape">Github</a>&nbsp; | &nbsp;<a href="https://dnsape.featureupvote.com" target="_blank">Vote on new features!</a></div>
+            <div class="float-left"><a href="" @click.prevent="showUpdates()">Updates</a>&nbsp; | &nbsp;<a href="" @click.prevent="showPrivacy()">Privacy</a>&nbsp; | &nbsp;<a href="https://github.com/srvaudit/dnsape">Github</a>&nbsp; | &nbsp;<a href="https://dnsape.featureupvote.com/?order=popular&filter=allexceptdone#controls" target="_blank">Vote on new features!</a> &nbsp;</div>
+            <div class="float-left">| &nbsp;Your IP is <a :href="'/ipwhois/' + clientIP">{{ clientIP }}</a></div>
             <div class="float-right">By <a href="https://srvaudit.com">srvAudit</a> Skunkworks</div>
         </div>
     </div>
@@ -160,7 +157,8 @@
         },
         data() {
             return {
-                host: 'dnsape.com',
+                host: '',
+                clientIP: '',
                 record: 'A',
                 recordType: false,
                 query: 'dns',

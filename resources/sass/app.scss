@@ -336,12 +336,12 @@ img {
   transition: opacity 0.25s;
 }
 .btn-toggle:before {
-  content: url(img/sun.svg);
+  content: url(/img/sun.svg);
   left: -3rem;
   top: -1px;
 }
 .btn-toggle:after {
-  content: url(img/moon.svg);
+  content: url(/img/moon.svg);
   right: -3rem;
   top: -1px;
   opacity: 0.5;
