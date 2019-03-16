@@ -23,7 +23,7 @@ const router = new VueRouter({
     routes: [{ 
         path: '/:query/:host',
         name: 'dns',
-        component: DNS 
+        component: DNS.default
     }]
 });
 

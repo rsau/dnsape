@@ -11,14 +11,18 @@
     },
     "devDependencies": {
         "axios": "^0.18",
-        "bootstrap": "^4.2.1",
-        "cross-env": "^5.1",
+        "bootstrap": "^4.3.1",
+        "cross-env": "^5.2.0",
         "jquery": "^3.3.1",
         "laravel-mix": "^2.0",
         "lodash": "^4.17.5",
         "popper.js": "^1.14.7",
-        "vue": "^2.6.4",
-        "vue-template-compiler": "^2.6.4"
+        "resolve-url-loader": "^2.3.0",
+        "sass": "^1.15.0",
+        "sass-loader": "^7.1.0",
+        "vue": "^2.6.0",
+        "vue-router": "^3.0.0",
+        "vue-template-compiler": "^2.6.0"
     },
     "name": "dnswww",
     "version": "1.0.0",

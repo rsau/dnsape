@@ -23,7 +23,7 @@
                         {{ $ptr['type'] }}
                     </td>
                     <td>
-                        {{ $ptr['ptrdname'] }}
+                        <a href="/dns/{{ $ptr['ptrdname'] }}">{{ $ptr['ptrdname'] }}</a>
                     </td>
                     <td>
                         {{ $ptr['name'] }}
@@ -41,7 +41,7 @@
                         {{ $ns['type'] }}
                     </td>
                     <td>
-                        {{ $ns['nsdname'] }}
+                        <a href="/dns/{{ $ns['nsdname'] }}">{{ $ns['nsdname'] }}</a>
                     </td>
                     <td>
                         {{ $ns['name'] }}
@@ -59,7 +59,7 @@
                         {{ $a['type'] }}
                     </td>
                     <td>
-                        {{ $a['address'] }}
+                        <a href="/ipwhois/{{ $a['address'] }}">{{ $a['address'] }}</a>
                     </td>
                     <td>
                         {{ $a['name'] }}
@@ -77,7 +77,7 @@
                         {{ $a['type'] }}
                     </td>
                     <td>
-                        {{ $a['address'] }}
+                        <a href="/ipwhois/{{ $a['address'] }}">{{ $a['address'] }}</a>
                     </td>
                     <td>
                         {{ $a['name'] }}
@@ -95,7 +95,7 @@
                         {{ $cname['type'] }}
                     </td>
                     <td>
-                        {{ $cname['cname'] }}
+                        <a href="/dns/{{ $cname['cname'] }}">{{ $cname['cname'] }}</a>
                     </td>
                     <td>
                         {{ $cname['name'] }}
@@ -113,7 +113,7 @@
                         {{ $mx['type'] }}{{ $mx['preference'] }} 
                     </td>
                     <td>
-                        {{ $mx['exchange'] }}
+                        <a href="/dns/{{ $mx['exchange'] }}">{{ $mx['exchange'] }}</a>
                     </td>
                     <td>
                         {{ $mx['name'] }}
@@ -185,7 +185,7 @@
                         {{ $soa['type'] }} 
                     </td>
                     <td>
-                        <b>Primary NS:</b> {{ $soa['mname'] }}<br/>
+                        <b>Primary NS:</b> <a href="/dns/{{ $soa['mname'] }}">{{ $soa['mname'] }}</a><br/>
                         <b>Responsible party:</b> <a href="mailto:{{ $soa['rname'] }}">{{ $soa['rname'] }}</a>
                     </td>
                     <td>

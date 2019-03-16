@@ -1,3 +1,10 @@
+1.1.1 - 2019-02-15
+------------------
+* Minor UI adjustments
+* Added links to lookups in DNS results
+* Updated dependencies
+* Increased session timeout to 1 week to eliminate 419 errors after Laravel default session timeout of 2 hours
+
 1.1 - 2019-02-15
 ------------------
 * Several UI adjustments
