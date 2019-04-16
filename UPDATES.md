@@ -3,7 +3,9 @@
 * Minor UI adjustments
 * Added links to lookups in DNS results
 * Updated dependencies
-* Increased session timeout to 1 week to eliminate 419 errors after Laravel default session timeout of 2 hours
+* Increased session timeout to 1 week to eliminate 419 errors after 2 hours
+* Updated IP address display
+* Removes dnsape.com as default lookup
 
 1.1 - 2019-02-15
 ------------------
