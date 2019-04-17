@@ -614,11 +614,11 @@ class ApeController extends Controller
 			$domain = $this->getTopLevelDomain($domain);
             $process = new Process("dig -t ns ".$domain.".|grep '^".$domain."'|awk '{print $5}'");
         }
-        $process->start();
-        $process->getOutput();
-        while ($process->isRunning()) {
-            $tlds[] = $process->getIncrementalOutput();
-            $process->clearOutput();
+        try {
+            $process->mustRun();
+            $tlds[] = $process->getOutput();
+        } catch (ProcessFailedException $e) {
+            echo $e->getMessage();
         }
         $tlds = array_filter($tlds);
         foreach($tlds as $tld) {

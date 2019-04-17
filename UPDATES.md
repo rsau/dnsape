@@ -1,4 +1,8 @@
-1.1.1 - 2019-02-15
+1.1.2 - 2019-04-17
+------------------
+* Fixes DNS Traversal issue causing many requests to fail
+
+1.1.1 - 2019-04-16
 ------------------
 * Minor UI adjustments
 * Added links to lookups in DNS results
