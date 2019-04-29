@@ -1,6 +1,11 @@
+1.1.3 - 2019-04-30
+------------------
+* Moved to new infrastructure, which resolves most remaining DNS Traversal issues, such as .coms not working
+* Replaced RBL with SSL validation tool
+
 1.1.2 - 2019-04-17
 ------------------
-* Fixes DNS Traversal issue causing many requests to fail
+* Fixed DNS Traversal issue causing many requests to fail
 
 1.1.1 - 2019-04-16
 ------------------

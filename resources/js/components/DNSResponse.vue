@@ -61,8 +61,8 @@
             </div>
             <div class="w-100 d-sm-none"></div>
             <div class="col">
-                <form @submit.prevent="formSubmitRBL">
-                    <button id="rbl" class="btn btn-link mt-1">RBL</button>
+                <form @submit.prevent="formSubmitSSL">
+                    <button id="ssl" class="btn btn-link mt-1">SSL</button>
                 </form>
             </div>
             <div class="col">
@@ -127,7 +127,7 @@
         </transition>
         <hr class="homehr" v-if="!output"/>
         <div id="footer" class="container-fluid pb-2">
-            <div class="float-left"><a href="" @click.prevent="showUpdates()">Updates</a>&nbsp; | &nbsp;<a href="" @click.prevent="showPrivacy()">Privacy</a>&nbsp; | &nbsp;<a href="https://github.com/srvaudit/dnsape">Github</a>&nbsp; | &nbsp;<a href="https://dnsape.featureupvote.com/?order=popular&filter=allexceptdone#controls" target="_blank">Vote on new features!</a> &nbsp;</div>
+            <div class="float-left"><a href="" @click.prevent="showUpdates()">Updates</a>&nbsp; | &nbsp;<a href="" @click.prevent="showPrivacy()">Privacy</a>&nbsp; | &nbsp;<a href="https://github.com/srvaudit/dnsape">Github</a>&nbsp; | &nbsp;<a href="https://dnsape.featureupvote.com/?order=popular&filter=allexceptdone#controls" target="_blank">Vote on features!</a> &nbsp;</div>
             <div class="float-left">| &nbsp;Your IP is <a :href="'/ipwhois/' + clientIP">{{ clientIP }}</a></div>
             <div class="float-right">By <a href="https://srvaudit.com">srvAudit</a> Skunkworks</div>
         </div>
@@ -274,8 +274,8 @@
                     case 'ipwhois':
                         this.formSubmitIPWhois()
                         break
-                    case 'rbl':
-                        this.formSubmitRBL()
+                    case 'ssl':
+                        this.formSubmitSSL()
                         break
                     case 'ping':
                         this.formSubmitPing()
@@ -353,6 +353,7 @@
             formSubmitCache(e) {
                 NProgress.start();
                 let currentObj = this;
+                currentObj.output = "<br/>Stand by, this takes a few seconds...<br/><br/>"
                 currentObj.query='cache';
                 currentObj.pushRoute();
                 $(".btn").removeClass("active");
@@ -471,27 +472,26 @@
                     NProgress.done();
                 }
             },
-            formSubmitRBL(e) {
+            formSubmitSSL(e) {
                 NProgress.start();
                 let currentObj = this;
-                currentObj.output = "<br/>Stand by, this takes over a minute...<br/><br/>"
                 $("#output").addClass("response-box");
-                currentObj.query='rbl';
+                currentObj.query='ssl';
                 currentObj.pushRoute();
                 $(".btn").removeClass("active");
                 this.recordType=false;
-                $("#rbl").addClass("active");
+                $("#ssl").addClass("active");
                 if(this.darkMode == true) {
                     $('#dm-button').addClass('active');
                 }
                 NProgress.inc();
                 if(this.checkDomainAndIP(this.host) == true) {
-                    axios.post('/rbl', {
+                    axios.post('/ssl', {
                         host: this.host,
                     })
                     .then(function (response) {
                         currentObj.output = response.data;
-                        //mixpanel.track("RBL");
+                        //mixpanel.track("SSL");
                         NProgress.done();
                     })
                     .catch(function (error) {
@@ -551,7 +551,7 @@
                     if (actualkey=="i")
                         this.formSubmitIPWhois();
                     if (actualkey=="r")
-                        this.formSubmitRBL();
+                        this.formSubmitSSL();
                     if (actualkey=="p")
                         this.formSubmitPing();
                     if (actualkey=="a")

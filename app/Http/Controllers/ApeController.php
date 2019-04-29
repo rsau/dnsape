@@ -1015,6 +1015,37 @@ class ApeController extends Controller
         }
     }
 
+    function ssl(Request $request) {
+        $domain = $request->host;
+        if($this->isValidHost($request->host)) {
+            $process = new Process("openssl s_client -connect ".$domain.":443 -servername ".$domain);
+            $process2 = new Process("echo | openssl s_client -connect ".$domain.":443 -servername ".$domain." 2>/dev/null | openssl x509 -noout -dates");
+        } elseif($this->isValidIP($request->host)) {
+            $process = new Process("openssl s_client -connect ".$domain.":443 -servername ".$domain);
+            $process2 = new Process("echo | openssl s_client -connect ".$domain.":443 -servername ".$domain." 2>/dev/null | openssl x509 -noout -dates");
+        }
+        try {
+            $process->mustRun();
+            $process2->mustRun();
+            $certificate = $process->getOutput();
+            $dates = str_replace("notBefore=", "Created: ", $process2->getOutput());
+            $dates = str_replace("notAfter=", "Expires: ", $dates);
+            $isvalid = strpos($certificate, "Verification: OK");
+        } catch (ProcessFailedException $e) {
+            echo $e->getMessage();
+        }
+        echo "<br/>";
+        if($isvalid) {
+            echo "<h3>SSL for $domain <br/><span class=\"badge badge-success\">SSL is valid</span></h3>";
+        } else {
+            echo "<h3>SSL for $domain <br/><span class=\"badge badge-danger\">SSL is not valid</span></h3>";
+        }
+        echo "<pre>";
+        echo "\n\n".$dates."\n";
+        echo $certificate;
+        echo "</pre>";
+    }
+
     function ping(Request $request) { 
         if($this->isValidHost($request->host)) {
             $process = new Process(array('/bin/ping', '-c', '4', '-W', '1', $request->host));

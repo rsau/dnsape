@@ -23,6 +23,6 @@ Route::post('/cache','ApeController@cache');
 Route::post('/httpheaders','ApeController@httpHeaders');
 Route::post('/whois','ApeController@whois');
 Route::post('/ipwhois','ApeController@ipwhois');
-Route::post('/rbl','ApeController@rbl');
+Route::post('/ssl','ApeController@ssl');
 Route::post('/ping','ApeController@ping');
 
