@@ -1028,17 +1028,17 @@ class ApeController extends Controller
             $process->mustRun();
             $process2->mustRun();
             $certificate = $process->getOutput();
-            $dates = str_replace("notBefore=", "Created: ", $process2->getOutput());
-            $dates = str_replace("notAfter=", "Expires: ", $dates);
+            $dates = str_replace("notBefore=", "Not valid before: ", $process2->getOutput());
+            $dates = str_replace("notAfter=", "Not valid after:  ", $dates);
             $isvalid = strpos($certificate, "Verification: OK");
         } catch (ProcessFailedException $e) {
             echo $e->getMessage();
         }
         echo "<br/>";
         if($isvalid) {
-            echo "<h3>SSL for $domain <br/><span class=\"badge badge-success\">SSL is valid</span></h3>";
+            echo "<h3><span class=\"badge badge-success\">SSL is valid for $domain</span></h3>";
         } else {
-            echo "<h3>SSL for $domain <br/><span class=\"badge badge-danger\">SSL is not valid</span></h3>";
+            echo "<h3><span class=\"badge badge-danger\">SSL is not valid for $domain</span></h3>";
         }
         echo "<pre>";
         echo "\n\n".$dates."\n";
