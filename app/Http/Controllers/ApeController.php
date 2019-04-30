@@ -1094,7 +1094,7 @@ class ApeController extends Controller
     function welcome(Request $request) {
         return view('welcome', [
             'cookie' => $request->cookie('albino-dnsape'),
-            'clientIP' => $request->ip()
+            'clientIP' => $request->headers->get('x-forwarded-for')
         ]);
     }
 

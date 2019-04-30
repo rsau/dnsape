@@ -128,6 +128,7 @@
         <hr class="homehr" v-if="!output"/>
         <div id="footer" class="container-fluid pb-2">
             <div class="float-left"><a href="" @click.prevent="showUpdates()">Updates</a>&nbsp; | &nbsp;<a href="" @click.prevent="showPrivacy()">Privacy</a>&nbsp; | &nbsp;<a href="https://github.com/srvaudit/dnsape">Github</a>&nbsp; | &nbsp;<a href="https://dnsape.featureupvote.com/?order=popular&filter=allexceptdone#controls" target="_blank">Vote on features!</a> &nbsp;</div>
+            <div class="float-left">| &nbsp;Your IP: <a :href="'/ipwhois/' + clientIP">{{ clientIP }}</a></div>
             <div class="float-right">By <a href="https://srvaudit.com">srvAudit</a> Skunkworks</div>
         </div>
     </div>
